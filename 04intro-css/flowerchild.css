@@ -84,14 +84,16 @@ main ul li {
     line-height: 100%;
     margin-bottom: .5rem;
     font-size: 1.2rem;
+    color: #545454;
 }
 
-main dl dt{
-    color: #541b08;
+main dl dt {
+    color: #bf8773;
     font-weight: 600;
     margin-top: 1rem;
 }
-main dl dd{
+
+main dl dd {
     color: #545454;
     font-weight: 400;
     margin-left: 20px;
@@ -105,7 +107,8 @@ main strong {
 main em {
     font-weight: 500;
 }
-main address{
+
+main address {
     font-style: normal;
     color: #545454;
     background-color: #d5e5f2;
@@ -114,9 +117,25 @@ main address{
     border: 1px solid;
     width: 200px;
 }
+
 main a {
     color: #024873;
 }
-main a:hover{
+
+main a:hover {
     color: #bf8773;
+}
+
+/* footer*/
+footer {
+    background-color: #d5e5f2;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #545454;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 2px;
 }
