@@ -185,13 +185,13 @@ main figcaption {
 .orderform [type=email],
 .orderform [type=text],
 .orderform [type=tel],
-.orderform [type=date],
 .orderform textarea {
     display: block;
 }
 
 .orderform [type=text],
-.orderform[type=tel],
+.orderform [type=tel],
+.orderform [type=email],
 .orderform select,
 .orderform textarea {
     border: solid 1px #d5e5f2;
